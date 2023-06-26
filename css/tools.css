@@ -1,0 +1,16 @@
+#tools {
+    /* 使用Flexbox来布局工具卡片 */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.tool-card {
+    /* 设置工具卡片的样式 */
+    width: calc(100% / 3 - 10px);
+    margin: 5px;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}

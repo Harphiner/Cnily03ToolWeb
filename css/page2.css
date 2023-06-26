@@ -1,0 +1,12 @@
+#page2 {
+    /* 每个 section 都是一个 scroll snap target */
+    scroll-snap-align: start;
+    /* 设置每个 section 都占满整个可视窗口 */
+    height: 100vh;
+    width: 100%;
+}
+
+#page2 {
+    /* 设置第二页的样式，例如背景色 */
+    background-color: #f0f0f0;
+}

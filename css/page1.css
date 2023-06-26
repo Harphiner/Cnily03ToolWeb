@@ -1,0 +1,15 @@
+#page1 {
+    /* 每个 section 都是一个 scroll snap target */
+    scroll-snap-align: start;
+    /* 设置每个 section 都占满整个可视窗口 */
+    height: 100vh;
+    width: 100%;
+}
+
+
+#page1 {
+    /* 这里可以设置背景图 */
+    position: relative;
+    background-size: cover;
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('/image/bgimg1.png');
+}

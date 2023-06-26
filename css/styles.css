@@ -1,0 +1,20 @@
+html,
+body {
+    /* 这将移除默认的 margin 和 padding */
+    margin: 0;
+    padding: 0;
+    /* 设置滚动效果 */
+    scroll-behavior: smooth;
+    /* 设置每个 section 都占满整个可视窗口 */
+    height: 100%;
+    width: 100%;
+    /* 这将使 body 的滚动为 scroll snap */
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
+
+
+#page2 {
+    /* 设置第二页的样式，例如背景色 */
+    background-color: #f0f0f0;
+}

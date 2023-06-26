@@ -1,0 +1,57 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+    height: 100px;
+}
+
+.typeit {
+    text-align: center;
+    /* 让文本对齐到右侧 */
+    -webkit-text-size-adjust: 100%;
+    line-height: 3.5rem;
+    font-family: system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        PingFang SC,
+        Microsoft YaHei UI,
+        Segoe UI,
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        Fira Sans,
+        Droid Sans,
+        Helvetica Neue,
+        Helvetica,
+        Arial,
+        sans-serif;
+    font-weight: bold;
+    white-space: nowrap;
+    font-size: 1.5rem;
+    color: #e0e0f1;
+
+}
+
+.nav-center img {
+    /* 设置头像的样式 */
+    width: 60px;
+    /* 根据你的需求调整宽度 */
+    height: 60px;
+    /* 根据你的需求调整高度 */
+    border-radius: 50%;
+    /* 可以使图片呈现为圆形 */
+}
+
+.nav-right {
+    /* 设置图标的样式 */
+    width: 30px;
+    /* 根据你的需求调整宽度 */
+    height: 30px;
+    /* 根据你的需求调整高度 */
+    margin-left: 10px;
+    /* 为图标添加间距 */
+}
